@@ -1,8 +1,6 @@
 CXX = g++
 
-CXXFLAGS = -g  -std=c++11 -Wall -l c#-I(include) -L(lib dir) -l(libname)
-
-PARSE_OBJ = node.o parser.o lexer.o
+CXXFLAGS = -g  -std=c++11 -Wall -l c
 
 OBJ = calculator.o node.o parser.o lexer.o 
 
