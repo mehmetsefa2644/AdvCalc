@@ -11,7 +11,7 @@ producing a target program as a translation, an interpreter appears to directly
 execute the operations specified in the source program on inputs supplied by
 the user.
 
-This is a compiler that produces x86 Assembly Code and an interpreter for calculator.
+!!!This is a compiler that produces x86 Assembly Code and an interpreter for calculator.!!!
 
 --HOW TO RUN?--
 1-Download zip Folder;
@@ -23,8 +23,8 @@ This is a compiler that produces x86 Assembly Code and an interpreter for calcul
 7-$./advcalc input ; #To compile into x86 Assembly Code
 
 
---Pseudo Code, Classes and Functions--u
-Source
+--Pseudo Code, Classes and Functions--
+advcalc
 
 	Calculator calc;
 	if argc==2 then
@@ -33,7 +33,7 @@ Source
 	else if argc==1 then
 		calc.interpret();
 
-Calculator
+calculator
 
 	buld_symbol_table();
 	interpret();
