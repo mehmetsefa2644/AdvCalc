@@ -1,15 +1,16 @@
+This project is created with the knowledge depend upon the famous Dragon Book(perfect reference for compilers), and help of the excellent Stackoverflow community.
 
 Simply stated, a compiler is a program that can read a program in one language
 — the source language — and translate it into an equivalent program in
 another language — the target language; see Fig. 1.1. An important role of the
 compiler is to report any errors in the source program that it detects during
-the translation process.
+the translation process.(from Dragonbook)
 
 
 An interpreter is another common kind of language processor. Instead of
 producing a target program as a translation, an interpreter appears to directly
 execute the operations specified in the source program on inputs supplied by
-the user.
+the user.(from Dragonbook)
 
 !!!This is a compiler that produces x86 Assembly Code and an interpreter for calculator.!!!
 
